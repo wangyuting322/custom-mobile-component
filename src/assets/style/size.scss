@@ -1,0 +1,60 @@
+$header-height:60px;
+// 特小号字体 - 在谷歌中可能显示最小是12px
+$mini-size:1rem;
+// 小号字体大小
+// $small-size:12px;
+$small-size:1.2rem;
+// 一般字体大小
+// $normal-size:14px;
+$normal-size:1.4rem;
+// 大号字号
+// $large-size:16px;
+$large-size:1.6rem;
+// 大号字号
+$huge-size:1.8rem;
+// 大号标题字号
+$huge-title-size:2rem;
+
+
+// 各种屏幕的全局大小适配 1rem=10px - 移动端适配
+@media screen and (min-width: 280px) and (max-width: 300px) and (orientation: portrait) {
+  html {
+    font-size: 46.67%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 330px) and (orientation: portrait) {
+  html {
+    font-size: 53.33%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 374px) and (orientation: portrait) {
+  html {
+    font-size: 60%;
+  }
+}
+// iphoneX
+@media screen and (min-width: 375px) and (max-width: 383px) and (orientation: portrait) {
+  html {
+    font-size:62.5%;
+  }
+}
+@media screen and (min-width: 384px) and (max-width: 399px) and (orientation: portrait) {
+  html {
+    font-size: 64%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 413px) and (orientation: portrait) {
+  html {
+    font-size: 66.67%;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 431px) and (orientation: portrait) {
+  html {
+    font-size: 69%;
+  }
+}
+@media screen and (min-width: 432px) and (max-width: 479px) and (orientation: portrait) {
+  html {
+    font-size: 72%;
+  }
+}
